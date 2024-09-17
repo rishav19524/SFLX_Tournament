@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #484848;
+}
+
+.header-logo img {
+    height: 40px;
+}
+
+.header-buttons button {
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 30px;
+}
+
+section.bracket {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.bracket h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.organizer {
+    margin-top: 20px;
+}
+
+.organizer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.organizer-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.voting {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.voting h2 {
+    margin-bottom: 15px;
+}
+
+.match-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.match {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.create-account-btn {
+    background-color: #ff6600;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.rounds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.round {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 48%;
+    text-align: center;
+}

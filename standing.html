@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USF Community Tournament</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-rgb(121 0 0)-900 text-white font-sans">
+    <!-- Main container -->
+    <div class="flex flex-col h-screen">
+        <!-- Top Navigation Bar  -->
+        <header class="bg-red-800 p-0.2 flex justify-between items-center">
+            <img src="logo.png" alt="Logo" class="h-20 w-18">
+        </header>
+
+        <!-- Content -->
+        <div class="flex flex-1">
+            <!-- Left Sidebar -->
+            <div class="w-1/4 bg-gray-800 p-5">
+                <div class="flex flex-col space-y-4">
+                 <a href="index.html"><button class="text-lg text-gray-300 hover:text-white text-left">Home</button></a>
+                 <a href="standing.html"><button class="text-lg text-gray-400 hover:text-white text-left">Standings</button></a>
+                    <button class="text-lg text-gray-400 hover:text-white text-left">Announcements (0)</button>
+                    <button class="text-lg text-gray-400 hover:text-white text-left">Log (0)</button>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="w-3/4 bg-gray-700 p-6">
+                <!-- Header Section -->
+                <div class="flex justify-between items-center mb-6">
+                    <div>
+                        <h1 class="text-3xl font-bold">SFLX Community Tournament 1.0</h1>
+                        <div class="h-1 w-20 bg-orange-500 my-2"></div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="flex items-center space-x-2 bg-gray-800 p-2 rounded-full">
+                            <img src="https://placehold.co/40x40" alt="Organizer's Profile" class="rounded-full w-10 h-10">
+                            <div>
+                                <p class="text-sm text-gray-300">Organized by</p>
+                                <p class="text-sm font-bold text-orange-400">rishav19524</p>
+                            </div>
+                        </div>
+                        <button class="bg-gray-800 p-2 rounded-full text-white">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tournament Info Section -->
+                <div class="bg-gray-800 p-4 rounded-lg mb-6">
+                    <div class="grid grid-cols-2 gap-4">
+                        <p class="text-gray-400">Players</p>
+                        <p>32</p>
+                        <p class="text-gray-400">Format</p>
+                        <p>Single Elimination</p>
+                        <p class="text-gray-400">Game</p>
+                        <p>Grand Theft Auto V</p>
+                        <p class="text-gray-400">Start Time</p>
+                        <p>September 20 at 10:00 AM CEST</p>
+                    </div>
+                </div>
+
+                <!-- Player List and Match History -->
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4">Player List and Match History</h2>
+                    <table class="min-w-full table-auto">
+                        <thead>
+                            <tr class="bg-gray-900">
+                                <th class="px-4 py-2 text-left">Sr. No</th>
+                                <th class="px-4 py-2 text-left">Participant Name</th>
+                                <th class="px-4 py-2 text-left">Opponent Name</th>
+                                <th class="px-4 py-2 text-left">Match History</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">1</td>
+                                <td class="px-4 py-2">-GIDIK-</td>
+                                <td class="px-4 py-2">GIDIK_</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">2</td>
+                                <td class="px-4 py-2">LustVP</td>
+                                <td class="px-4 py-2">LustVP</td>
+                                <td class="px-4 py-2">Win (W, W)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">3</td>
+                                <td class="px-4 py-2">Ning_n</td>
+                                <td class="px-4 py-2">Ning_n</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">4</td>
+                                <td class="px-4 py-2">Suba579</td>
+                                <td class="px-4 py-2">Suba579</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">5</td>
+                                <td class="px-4 py-2">--atzeface--</td>
+                                <td class="px-4 py-2">atzesface</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">6</td>
+                                <td class="px-4 py-2">1000293983</td>
+                                <td class="px-4 py-2">1000293983</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">7</td>
+                                <td class="px-4 py-2">bulls230</td>
+                                <td class="px-4 py-2">bulls230</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">8</td>
+                                <td class="px-4 py-2">hito_nobu2</td>
+                                <td class="px-4 py-2">hito_nobu2</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">9</td>
+                                <td class="px-4 py-2">JurreM24</td>
+                                <td class="px-4 py-2">JurreM24</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">10</td>
+                                <td class="px-4 py-2">Maiden_Less</td>
+                                <td class="px-4 py-2">Dino3PIC</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">11</td>
+                                <td class="px-4 py-2">rip_FOCUS</td>
+                                <td class="px-4 py-2">ripFOCUS</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">12</td>
+                                <td class="px-4 py-2">tubi_v2</td>
+                                <td class="px-4 py-2">Tubi_v2</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">13</td>
+                                <td class="px-4 py-2">xLightsOut</td>
+                                <td class="px-4 py-2">SchwznzustLongus</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">14</td>
+                                <td class="px-4 py-2">blitzreiter</td>
+                                <td class="px-4 py-2">Xerx233</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">15</td>
+                                <td class="px-4 py-2">riolit200</td>
+                                <td class="px-4 py-2">ArachKnight</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">16</td>
+                                <td class="px-4 py-2">pro_FN</td>
+                                <td class="px-4 py-2">SaigonRocks</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">17</td>
+                                <td class="px-4 py-2">Albedo_won</td>
+                                <td class="px-4 py-2">Scutarius3</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">18</td>
+                                <td class="px-4 py-2">LastSamurai5</td>
+                                <td class="px-4 py-2">Soma_Lix</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">19</td>
+                                <td class="px-4 py-2">ZeroGravity7</td>
+                                <td class="px-4 py-2">DelTaco88</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">20</td>
+                                <td class="px-4 py-2">Hydra_fang</td>
+                                <td class="px-4 py-2">FlameMaster1</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">21</td>
+                                <td class="px-4 py-2">BladeStorm1</td>
+                                <td class="px-4 py-2">RazerNXT</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">22</td>
+                                <td class="px-4 py-2">DarkPhoenix5</td>
+                                <td class="px-4 py-2">WindChill</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">23</td>
+                                <td class="px-4 py-2">Starkiller34</td>
+                                <td class="px-4 py-2">IronFist47</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">24</td>
+                                <td class="px-4 py-2">FlashStrike22</td>
+                                <td class="px-4 py-2">VenomViper</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">25</td>
+                                <td class="px-4 py-2">SteelFist09</td>
+                                <td class="px-4 py-2">PhantomBlitz</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">26</td>
+                                <td class="px-4 py-2">QuantumKnight</td>
+                                <td class="px-4 py-2">NovaTide3</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">27</td>
+                                <td class="px-4 py-2">WarHammer90</td>
+                                <td class="px-4 py-2">AlphaHawk</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">28</td>
+                                <td class="px-4 py-2">BlueFlame1</td>
+                                <td class="px-4 py-2">SilverShade</td>
+                                <td class="px-4 py-2">No Result</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">29</td>
+                                <td class="px-4 py-2">PhoenixRising</td>
+                                <td class="px-4 py-2">NightCrawler</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">30</td>
+                                <td class="px-4 py-2">TitaniumBlade</td>
+                                <td class="px-4 py-2">ThunderBolt9</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                            <tr class="bg-gray-700">
+                                <td class="px-4 py-2">31</td>
+                                <td class="px-4 py-2">ShadowHunter7</td>
+                                <td class="px-4 py-2">DragonWing8</td>
+                                <td class="px-4 py-2">Win (W)</td>
+                            </tr>
+                            <tr class="bg-gray-800">
+                                <td class="px-4 py-2">32</td>
+                                <td class="px-4 py-2">VenomStrike</td>
+                                <td class="px-4 py-2">CycloneRider</td>
+                                <td class="px-4 py-2">Loss (L)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
